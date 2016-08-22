@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart" : "npm install",
-    "start": "node server.js"
+    "poststart" : "node server.js",
+    "start": "npm install"
   },
   "author": "nickhil388",
   "license": "ISC",
